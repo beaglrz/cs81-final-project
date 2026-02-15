@@ -1,5 +1,5 @@
 const cardImages = [
-  { name: 'kitty1', img: 'https://via.placeholder.com/120?text=Kitty+1' },
+  { name: 'kitty1', img: 'https://raw.githubusercontent.com/beaglrz/cs81-final-project/06e73d2a6a638dc1baf4eb38e3b1e83c4c7f9fe9/src/data/Hello%20Kitty.png' },
   { name: 'kitty2', img: 'https://via.placeholder.com/120?text=Kitty+2' },
   { name: 'kitty3', img: 'https://via.placeholder.com/120?text=Kitty+3' },
   { name: 'kitty4', img: 'https://via.placeholder.com/120?text=Kitty+4' },
