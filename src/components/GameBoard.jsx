@@ -1,3 +1,5 @@
+import bow from '../data/bow.jpg';
+
 function GameBoard({ cards, flippedIds, matchedIds, onCardClick }) {
   return (
     <main className="board">
@@ -15,7 +17,7 @@ function GameBoard({ cards, flippedIds, matchedIds, onCardClick }) {
               {isFlipped ? (
                 <img src={card.img} alt="Hello Kitty card" className="card-image" />
               ) : (
-                '🎀'
+                <img src={bow} alt="Bow card back" className="card-back-image" />
               )}
             </div>
           </div>

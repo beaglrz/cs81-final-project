@@ -14,15 +14,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
-  border-radius: 12px;
-  padding: 16px;
-  border: 2px solid #ffc0cb;
+  background: #ffc0cb;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .header-controls {
@@ -51,29 +50,36 @@ button:hover {
   gap: 12px;
 }
 
+/* Card container */
 .card-slot {
-  background: white;
+  background: white;              
   border: 2px solid #ffc0cb;
   border-radius: 14px;
-  height: 120px;
-  display: grid;
-  place-items: center;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+
+  display: grid;
+  place-items: center;           
 }
 
 .card-face {
-  font-size: 34px;
-  line-height: 1;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;            
 }
 
-.card-label {
-  margin: 0;
-  font-size: 12px;
-  color: #666;
+.card-back-image {
+  width: 60%;                    
+  height: 60%;
+  object-fit: contain;
+  display: block;
 }
 
 .card-image {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
