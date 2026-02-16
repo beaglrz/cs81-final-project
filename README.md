@@ -1,16 +1,36 @@
-# React + Vite
+# Hello Kitty Memory Match Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Summary
+This project is a Hello Kitty Memory Match Game made with React and Vite. Players flip cards to find matching pairs of Sanrio characters. The game counts your moves and shows a message when you match all the pairs.
 
-Currently, two official plugins are available:
+# Key Features and Functionality
+- Interactive memory matching game
+- Flip cards to reveal Sanrio characters
+- Match detection with automatic flip-back for mismatches
+- Keep track of your moves with a counter that updates every turn
+- “New Game” button to reset and reshuffle the deck
+- Win message displayed when all pairs are matched
+- Responsive grid layout with square cards that works on any device
+- Each card back features a bow image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies Used
+- React
+- Vite
+- JavaScript
+- HTML/JSX
+- CSS
 
-## React Compiler
+# Instructions
+To get started, you can clone the repository to run the project on your computer, or you can play the game right away using the live GitHub Pages link.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+How to Run Locally
+1. Open your preferred code editor (e.g., Visual Studio Code)
+2. Clone the repository using a terminal (git clone https://github.com/beaglrz/cs81-final-project.git)
+3. Navigate into folder (cd cs81-final-project)
+4. Install dependencies (npm install)
+5. Start DEV server (npm run dev)
+6. Open localhost link (http://localhost:5173)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live GitHub Page
+https://beaglrz.github.io/cs81-final-project/
+  
